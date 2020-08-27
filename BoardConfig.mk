@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/santoni
+LOCAL_PATH := device/10or/E
 
 # Architecture
 TARGET_ARCH := arm64
@@ -77,7 +77,6 @@ BOARD_USES_QCOM_HARDWARE := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_EXTRA_LANGUAGES := true
 TW_THEME := portrait_hdpi
-TW_USE_TOOLBOX := true
 TW_EXCLUDE_SUPERSU := true
 TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_CRYPTO := true
