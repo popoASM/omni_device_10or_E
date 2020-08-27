@@ -25,14 +25,14 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
-BOARD_VENDOR := Xiaomi
-PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := santoni
-PRODUCT_NAME := omni_santoni
-PRODUCT_RELEASE_NAME := santoni
-PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := Redmi 4X
-TARGET_VENDOR := Xiaomi
+BOARD_VENDOR := 10or
+PRODUCT_BRAND := 10or
+PRODUCT_DEVICE := E
+PRODUCT_NAME := omni_E
+PRODUCT_RELEASE_NAME := E
+PRODUCT_MANUFACTURER := 10or
+PRODUCT_MODEL := E
+TARGET_VENDOR := 10or
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.keystore=msm8937
