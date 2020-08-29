@@ -51,8 +51,8 @@
 	export OF_USE_GREEN_LED=0
 	export OF_QUICK_BACKUP_LIST="/boot;/system;/data;/vendor;/persist_image;/splash;/recovery;/aboot;/modem;/sec;/efs1"
 	export OF_MAINTAINER="MOCHI"
-	export OF_TARGET_DEVICES="land,karate,santoni,riva,E,holland1"
-	export TARGET_DEVICE_ALT="land,karate,santoni,riva,E,holland1"
+	export OF_TARGET_DEVICES="land,karate,cedric,marmite,santoni,riva,E,holland1"
+	export TARGET_DEVICE_ALT="land,karate,cedric,marmite,santoni,riva,E,holland1"
 
 	# let's log what are the build VARs that we used
 	if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then

@@ -19,3 +19,4 @@
 # 	Please maintain this if you use this script or any part of it
 
 ln -s /dev/block/bootdevice/by-name/vendor /dev/block/bootdevice/by-name/cust
+ln -s /dev/block/bootdevice/by-name/vendor /dev/block/bootdevice/by-name/oem
