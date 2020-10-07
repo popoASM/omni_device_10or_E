@@ -28,14 +28,14 @@
 	export OF_ALLOW_DISABLE_NAVBAR=0
 	export OF_CHECK_OVERWRITE_ATTEMPTS=1
 	export FOX_USE_UNZIP_BINARY=1
-	# export OF_DISABLE_DM_VERITY_FORCED_ENCRYPTION="1"; # disabling dm-verity causes stability issues with some kernel 4.9 ROMs; but is needed for MIUI
+	# export OF_DISABLE_DM_VERITY_FORCED_ENCRYPTION=1; # disabling dm-verity causes stability issues with some kernel 4.9 ROMs; but is needed for MIUI
 	# export OF_DISABLE_FORCED_ENCRYPTION=1
 	export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
-	export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES="1"
-	export OF_USE_MAGISKBOOT="1"
-	export OF_FORCE_MAGISKBOOT_BOOT_PATCH_MIUI="1"
-	export OF_NO_MIUI_OTA_VENDOR_BACKUP="1"
-	export OF_NO_TREBLE_COMPATIBILITY_CHECK="1"
+	export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
+	export OF_USE_MAGISKBOOT=1
+	export OF_FORCE_MAGISKBOOT_BOOT_PATCH_MIUI=1
+	export OF_NO_MIUI_OTA_VENDOR_BACKUP=1
+	export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
 
 	# OTA for custom ROMs
         export OF_SUPPORT_ALL_BLOCK_OTA_UPDATES=1
@@ -48,7 +48,6 @@
         export OF_DISABLE_MIUI_OTA_BY_DEFAULT=1
         # -- end R11 settings --
 
-	export OF_USE_GREEN_LED=0
 	export OF_QUICK_BACKUP_LIST="/boot;/system;/data;/vendor;/persist_image;/splash;/recovery;/aboot;/modem;/sec;/efs1"
 	export OF_MAINTAINER="MOCHI"
 	export OF_TARGET_DEVICES="land,karate,cedric,marmite,santoni,riva,E,holland1"
