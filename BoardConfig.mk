@@ -51,6 +51,11 @@ TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/Image.gz-dtb
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
+TARGET_KEYMASTER_WAIT_FOR_QSEE := true
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_FBE := true
+TW_INCLUDE_CRYPTO_FBE := true
+TW_CRYPTO_SYSTEM_VOLD_MOUNT := system vendor
 
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
